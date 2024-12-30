@@ -1,0 +1,51 @@
+section.about-section
+  .wrapper
+    .about-section__container
+      img.about-section__bg-img-1(src="images/about-section-bg-img-1.png" loading="lazy" width="410" height="460" alt="image")
+      img.about-section__bg-img-2(src="images/about-section-bg-img-2.png" loading="lazy" width="760" height="762" alt="image")
+      h2.about-section__title.font-w-extra-bold.font-s-44.text-up
+        | За 
+        span.color-red 14 лет 
+        | работы открыли 
+        br
+        span.color-red 8 
+        | прибыльных 
+        span.color-red филиалов
+      .about-section__box
+        img.about-section__img(src="images/about-section-img.jpg" loading="lazy" width="761" height="670" alt="image")
+        .about-section__text
+          .font-s-20
+            | Первый барбершоп «RAZOR» был запущен в 2010 году, а сегодня у нас активно 
+            br.no-br
+            | работают и приносят прибыль 8 собственных филиалов, которые ежемесячно 
+            br.no-br
+            | посещают более 1500 постоянных клиентов.
+          .font-s-20
+            | Мы стремимся не просто создавать отстраненный имидж для наших 
+            br.no-br
+            | гостей, а постараться уловить их собственное представление о себе, 
+            br.no-br
+            | раскрыть внутреннюю красоту. Помимо основных услуг барбершопа, мы 
+            br.no-br
+            | также предлагаем брендовую косметику и консультации по уходу за 
+            br.no-br
+            | собой.
+          .font-s-20
+            | Запуск барбершопа при поддержке нашей команды — это простой способ 
+            br.no-br
+            | быстро открыть собственный бизнес, окупить вложения и перейти к росту 
+            br.no-br
+            | и масштабированию. Франшиза «RAZOR» — это не только готовая модель 
+            br.no-br
+            | работы, но и пошаговая инструкция, которая убережет вас от ошибок на 
+            br.no-br
+            | старте и позволит получать прибыль уже с первого месяца.
+      .about-section__bottom-title.font-w-extra-bold.font-s-32.text-up
+        | С радостью ответим на ваши вопросы по франшизе!
+      form.about-section__form(data-feedback-form)
+        textarea.input.input--textarea(type="text" name="answer" autocomplete="off" placeholder="Текст вопроса")
+        .about-section__form-column
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        button.btn(type="submit") Задать вопрос <br> команде

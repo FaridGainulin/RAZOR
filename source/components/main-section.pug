@@ -1,0 +1,24 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-extra-bold.font-s-44.text-up
+        | Откройте прибыльный 
+        br
+        span.color-red барбершоп 
+        | в своем городе 
+        br
+        | по франшизе 
+        span.color-red «RAZOR»
+      .main-section__sub-title.font-s-28
+        span.font-s-28 и получайте от  
+        span.main-section__mark-1 305 000 рублей
+        span.main-section__mark-2 ежемесячно
+      .main-section__bottom
+        img.main-section__bottom-img(src="images/main-section-bottom-img.png" loading="lazy" width="440" height="314" alt="image")
+        form.main-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          button.btn(type="submit") Получить план <br> открытия
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1896" height="2158" alt="image")

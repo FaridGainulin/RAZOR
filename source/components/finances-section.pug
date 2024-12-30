@@ -1,0 +1,60 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      img.finances-section__img-bg-1(src="images/finances-section-img-bg-1.png" loading="lazy" width="601" height="741" alt="image")
+      img.finances-section__img-bg-2(src="images/finances-section-img-bg-2.png" loading="lazy" width="739" height="860" alt="image")
+      h2.finances-section__title.font-w-extra-bold.font-s-44.text-up
+        | Основные 
+        span.color-red показатели 
+        br.no-br
+        | бизнеса
+      .finances-section__box
+        .swiper-bullet
+          .finances-section__cards.swiper-wrapper
+            .finances-section__card.swiper-slide
+              img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="47" height="47" alt="icon")
+              .font-w-bold.font-s-40-a.color-red 305 000 ₽
+              .font-s-22 Средний размер <br> ежемесячной прибыли
+            .finances-section__card.swiper-slide
+              img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="47" height="47" alt="icon")
+              .font-w-bold.font-s-40-a.color-red 2 065 000 ₽
+              .font-s-22 Средний размер <br> вложений
+            .finances-section__card.swiper-slide
+              img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="47" height="47" alt="icon")
+              .font-w-bold.font-s-40-a.color-red 875 000 ₽
+              .font-s-22 Средний размер <br> ежемесячной выручки
+            .finances-section__card.swiper-slide
+              img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="47" height="47" alt="icon")
+              .font-w-bold.font-s-40-a.color-red 46 дней
+              .font-s-22 Понадобится на запуск <br> барбершопа
+            .finances-section__card.swiper-slide
+              img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="47" height="47" alt="icon")
+              .font-w-bold.font-s-40-a.color-red 10 месяцев
+              .font-s-22 Средний срок <br> окупаемости вложений
+            .finances-section__card.swiper-slide
+              img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="47" height="47" alt="icon")
+              .font-w-bold.font-s-40-a.color-red 34,8%
+              .font-s-22 Рентабельность <br> по чистой прибыли
+          .bullet-pagination.bullet-pagination--right
+      .finances-section__bottom
+        img.finances-section__bottom-img(src="images/finances-section-bottom-img.png" loading="lazy" width="782" height="512" alt="image")
+        .finances-section__bottom-text
+          .font-w-extra-bold.font-s-32.text-up
+            | Хотите получить 
+            br.no-br
+            span.color-red детальные цифры 
+            br
+            | для вашего города 
+            br.no-br
+            | и под ваш бюджет?
+          .font-s-24
+            | Скачайте финансовую 
+            br.no-br
+            | модель франшизы 
+            span.color-red «Razor»
+        form.finances-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") скачать
+      img.finances-section__img(src="images/finances-section-img.jpg" loading="lazy" width="761" height="1048" alt="image")

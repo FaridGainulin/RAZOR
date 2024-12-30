@@ -1,0 +1,25 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      h2.city-section__title.font-w-extra-bold.font-s-44.text-up
+        | Откройте 
+        span.color-red собственный 
+        br.no-br
+        span.color-red барбершоп 
+        | по франшизе 
+        br.no-br
+        | «RAZOR» уже через 
+        span.color-red 46 дней
+        | !
+      .city-section__sub-title
+        img.city-section__sub-title-img(src="images/city-section-sub-title-img.png" loading="lazy" width="138" height="298" alt="image")
+        .city-section__block.font-s-28
+          span Проверьте, свободен ли 
+          span.city-section__mark ваш город
+          span для работы
+      form.city-section__form(data-feedback-form)
+        input(type="text" name="honeyfield" class="honeypot" style="display:none")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+        button.btn(type="submit") Проверить
+      img.city-section__img(src="images/city-section-img.png" loading="lazy" width="1920" height="953" alt="image")
